@@ -29,7 +29,7 @@ public class LoginPane extends BorderPane {
 
 		// BACKGROUND
 
-		Image background = new Image("files/bck.png");
+		Image background = new Image("file:files/bck.png");
 
 		setCenter(new ImageView(background));
 		BackgroundSize backgroundSize = new BackgroundSize(960, 540, true, true, true, true);

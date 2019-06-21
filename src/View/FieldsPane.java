@@ -68,7 +68,7 @@ public class FieldsPane extends BorderPane {
 
 		// left background
 
-		Image background = new Image("files/menu1.png");
+		Image background = new Image("file:files/menu1.png");
 		BackgroundSize backgroundSize = new BackgroundSize(960, 540, true, true, true, true);
 		BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.REPEAT,
 				BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, backgroundSize);

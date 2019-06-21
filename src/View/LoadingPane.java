@@ -8,7 +8,7 @@ import javafx.scene.layout.BorderPane;
 public class LoadingPane extends BorderPane {
 	public LoadingPane(ScreenController screenController) {
 		LoadingPane thisPane = this;
-		this.setCenter(new ImageView(new Image("files/infinity.gif")));
+		this.setCenter(new ImageView(new Image("file:files/infinity.gif")));
 		this.setStyle("-fx-background-color: #001E64");
 
 		Thread tr = new Thread() {

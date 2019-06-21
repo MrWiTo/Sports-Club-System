@@ -18,7 +18,7 @@ public class FieldBox extends BorderPane {
 
 		setPrefSize(250, 120);
 
-		ImageView imageV = new ImageView(new Image("files/stadiums/" + name + ".jpg", 240, 120, false, false));
+		ImageView imageV = new ImageView(new Image("file:files/stadiums/" + name + ".jpg", 240, 120, false, false));
 		setMargin(imageV, new Insets(10, 5, 10, 5));
 		setCenter(imageV);
 	}

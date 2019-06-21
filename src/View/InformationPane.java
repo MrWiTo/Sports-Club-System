@@ -18,7 +18,7 @@ public class InformationPane extends BorderPane {
 	public InformationPane(ScreenController screenController) {
 		
 		//background
-		Image background = new Image("files/bck.png");
+		Image background = new Image("file:files/bck.png");
 
 		setCenter(new ImageView(background));
 		BackgroundSize backgroundSize = new BackgroundSize(960, 540, true, true, true, true);

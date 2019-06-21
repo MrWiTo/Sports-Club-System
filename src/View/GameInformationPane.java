@@ -26,7 +26,7 @@ public class GameInformationPane extends BorderPane {
 		Map<String, String> weatherMap = controller.getWeather(scheduleBox.place);
 
 		// Background
-		Image background = new Image("files/back3.png");
+		Image background = new Image("file:files/back3.png");
 
 		BackgroundSize backgroundSize = new BackgroundSize(960, 540, true, true, true, true);
 		BackgroundImage backgroundImage = new BackgroundImage(background, BackgroundRepeat.REPEAT,
@@ -38,7 +38,7 @@ public class GameInformationPane extends BorderPane {
 		// Image and temperature
 		HBox temp = new HBox();
 
-		ImageView weatherIcon = new ImageView(new Image("files/weather/" + weatherMap.get("icon") + ".png"));
+		ImageView weatherIcon = new ImageView(new Image("file:files/weather/" + weatherMap.get("icon") + ".png"));
 		Label temperatureLb = new Label(weatherMap.get("temperature") + "°C");
 		temperatureLb.setStyle("-fx-font-size: 40; -fx-text-fill: WHITE");
 		temp.getChildren().addAll(weatherIcon, temperatureLb);
@@ -69,7 +69,7 @@ public class GameInformationPane extends BorderPane {
 
 		StackPane rightPane = new StackPane();
 		rightPane.setPrefSize(480, 540);
-		ImageView teamImg = new ImageView(new Image("files/lineup/" + scheduleBox.teamName + ".jpg"));
+		ImageView teamImg = new ImageView(new Image("File:files/lineup/" + scheduleBox.teamName + ".jpg"));
 		teamImg.setFitHeight(450);
 		teamImg.setFitWidth(350);
 		rightPane.getChildren().add(teamImg);

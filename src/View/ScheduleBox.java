@@ -66,7 +66,7 @@ public class ScheduleBox extends AnchorPane {
 
 		// RIGHT
 		StackPane rightInside = new StackPane();
-		ImageView logoImg = new ImageView(new Image("files/logo/" + fileName));
+		ImageView logoImg = new ImageView(new Image("file:files/logo/" + fileName));
 		logoImg.setFitHeight(100);
 		logoImg.setFitWidth(100);
 		rightInside.setAlignment(Pos.CENTER);

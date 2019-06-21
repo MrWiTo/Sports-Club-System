@@ -24,7 +24,7 @@ public class PeoplePane extends BorderPane{
 	MVCController<PersonSalary> controllerPSalary = new MVCController<PersonSalary>();
 	public PeoplePane(ScreenController screenController) {
 		//Background
-		Image background = new Image("files/bck.png");
+		Image background = new Image("file:files/bck.png");
 
 		
 		BackgroundSize backgroundSize = new BackgroundSize(960, 540, true, true, true, true);

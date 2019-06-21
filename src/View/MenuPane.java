@@ -63,7 +63,7 @@ public class MenuPane extends BorderPane {
 		buttonVBox.getChildren().add(logoutBtn);
 
 		// right background
-		Image backgroundImg1 = new Image("files/menu1.png");
+		Image backgroundImg1 = new Image("file:files/menu1.png");
 		BackgroundSize bck1 = new BackgroundSize(960, 540, true, true, true, true);
 		BackgroundImage backgroundImage1 = new BackgroundImage(backgroundImg1, BackgroundRepeat.REPEAT,
 				BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, bck1);
@@ -75,7 +75,7 @@ public class MenuPane extends BorderPane {
 
 		// background image
 		Pane backgroundPane = new Pane();
-		Image backgroundImg = new Image("files/menub.jpg");
+		Image backgroundImg = new Image("file:files/menub.jpg");
 		BackgroundSize bck = new BackgroundSize(960, 540, true, true, true, true);
 		BackgroundImage backgroundImage = new BackgroundImage(backgroundImg, BackgroundRepeat.REPEAT,
 				BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, bck);

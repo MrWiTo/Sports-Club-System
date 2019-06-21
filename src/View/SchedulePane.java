@@ -62,7 +62,7 @@ public class SchedulePane extends BorderPane {
 
 		// Background
 
-		Image backgroundImg = new Image("files/test6.png");
+		Image backgroundImg = new Image("file:files/test6.png");
 		BackgroundSize bck = new BackgroundSize(960, 540, true, true, true, true);
 		BackgroundImage backgroundImage = new BackgroundImage(backgroundImg, BackgroundRepeat.REPEAT,
 				BackgroundRepeat.NO_REPEAT, BackgroundPosition.CENTER, bck);
